@@ -1,0 +1,3 @@
+[submodule "ITK-graphics"]
+	path = ITK_graphicslib
+	url = https://github.com/flugi/ITK_graphicslib.git
