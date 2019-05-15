@@ -14,6 +14,7 @@ public:
     virtual bool is_selected(int mouse_x, int mouse_y) const;
     virtual void draw() const = 0;
     virtual void handle(genv::event& ev) = 0;
+    virtual void setTartalmazoApp(Application* app);
     virtual ~Widget(){}
 };
 

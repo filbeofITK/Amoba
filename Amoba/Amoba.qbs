@@ -11,6 +11,8 @@ Project {
         cpp.enableRtti: "true"
         files: [
             "source/main.cpp",
+            "source/mezo.cpp",
+            "source/mezo.hpp",
             "source/myapplication.cpp",
             "source/myapplication.hpp",
         ]
@@ -23,12 +25,10 @@ Project {
         Depends { name: "sdl" }
         Depends { name: "widgetek" }
         Depends { name: "OsApp" }
-
     }
 
-
     SubProject {
-        filePath: "../ITK_graphics-master/graphics.qbs"
+        filePath: "../ITK_graphicslib/graphics.qbs"
         Properties {
             name: "ITK graphics library"
         }
