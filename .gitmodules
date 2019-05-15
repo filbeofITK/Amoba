@@ -1,3 +1,0 @@
-[submodule "ITK-graphics"]
-	path = ITK_graphicslib
-	url = https://github.com/filbeofITK/ITK_graphicslib.git
