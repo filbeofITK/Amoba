@@ -15,6 +15,7 @@ public:
     virtual void draw() const = 0;
     virtual void handle(genv::event& ev) = 0;
     virtual void setTartalmazoApp(Application* app);
+    virtual void setWidgetAllapot(const int ujAllapot) = 0;
     virtual ~Widget(){}
 };
 

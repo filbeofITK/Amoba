@@ -14,7 +14,7 @@ public:
     virtual void event_loop(genv::event& ev) =0;
     virtual void registerWidget(Widget* w);
     virtual void action(const int miLegyen) = 0;
-    virtual void widget_handle(const int X, const int Y) = 0;
+    virtual int widget_handle(const int X, const int Y) = 0;
     virtual ~Application(){}
 protected:
     std::vector<Widget*> widgetek;

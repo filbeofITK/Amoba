@@ -4,11 +4,7 @@
 #include "widgets.hpp"
 #include "mezo.hpp"
 
-enum ertek{
-    empty = 0,
-    player_one = 1,
-    player_two = 2
-};
+#include <cmath>
 
 //class MyApplication;
 
@@ -19,6 +15,7 @@ public:
     void setTartalmazoApp(Application* app);
     void handle(genv::event& ev);
     void draw() const;
+    void setWidgetAllapot(const int ujAllapot);
 protected:
     int mezoerteke = 0;
     int mezoXPozicio;
